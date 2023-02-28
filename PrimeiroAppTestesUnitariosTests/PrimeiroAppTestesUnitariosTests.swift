@@ -22,8 +22,8 @@ class PrimeiroAppTestesUnitariosTests: XCTestCase {
     
     func testPrimeiraFuncao() throws {
         print("2")
-        var valorTotal = 10 + 10
-        XCTAssertEqual(30, valorTotal)
+        let valorTotal = 10 + 10
+        XCTAssertEqual(20, valorTotal)
     }
     
 }
